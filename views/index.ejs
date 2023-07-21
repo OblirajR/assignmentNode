@@ -1,0 +1,17 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Players</title>
+    </head>
+    <body>
+        <h1>Player Details</h1>
+        <div>
+            <h2><%= player.name%></h2>
+            <p> Age : <%= player.age%></p>
+            <img src="<%= player.image%>" alt="<%= player.name %>">
+        </div>
+        <a href="/players/next/<%= player._id %>">Next Player</a>
+    </body>
+    </html>
