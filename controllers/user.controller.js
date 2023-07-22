@@ -8,7 +8,7 @@ module.exports.players = async(req,res,next)=>{
    }
    catch(err){
     if(!err.message){
-      err.message = "Internal server error"
+      err.message = "Internal server error knsdif"
     }
     if(!err.statusCode){
       err.statusCode = 500
